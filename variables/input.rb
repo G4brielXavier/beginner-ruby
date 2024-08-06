@@ -3,11 +3,12 @@
 
 # ---------------- Inputs ------------------
 
-puts "What's your name?: "
-name = gets.chomp
-puts "What's your age?: "
-age = gets.chomp.to_i
+puts "n + n = ?"
+n1 = gets.chomp.to_i
+
+puts "#{n1} + n = ?"
+n2 = gets.chomp.to_i
+
+puts "#{n1} + #{n2} = #{n1 + n2}"
 
 
-puts "Your name is #{name}"
-puts "You have #{age} years old"

@@ -3,11 +3,15 @@
 
 # ----------------- Variables and Data Types ------------------
 
-name = "Gabriel Xavier" # This is a string variable
-age = 18 # This is a integer variable
-height = 1.8 # This is a floating variable
-is_nice = true # This is a boolean variable
+#Numbers
 
-# formatation
-puts "I'm #{name}"
-puts "I have #{age} years old, #{height} mt, is nice? : #{is_nice}"
+integer = 10 #int
+floating = 10.0 #float
+hexadecimal = 0x10 #hexadecimal notation
+binary = 0b1010 #binary notation
+
+#String
+
+name = "Gabriel"
+language = 'Ruby'
+
