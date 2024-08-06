@@ -6,17 +6,28 @@
 # and = &&
 # or = ||
 
-correct_ruby = "ruby is nice"
-correct_python = "python is very nice"
+card = '1092090'
+balance = 120
 
-puts "Rating Ruby: "
-rating_ruby = gets.chomp
+puts "CARD CODE"
+inputCard = gets.chomp
 
-puts "Rating Python: "
-rating_python = gets.chomp
-
-if rating_ruby == "ruby is nice" && rating_python == "python is very nice" then
-    puts "ok, ok"
-else:
-    puts "no, no"
+def optionCard()
+    puts "option card"
+    option = gets.chomp
+    return option
 end
+
+if inputCard == card then
+    puts "Card Found!"
+    opt = optionCard()
+
+    if opt == 'balance' then
+        puts "~Balance: $#{balance}"
+    else
+        puts "Bye!"
+    end
+else
+    puts "Card '#{inputCard}' not recognized!"
+end
+
