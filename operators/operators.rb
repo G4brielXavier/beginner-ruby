@@ -14,6 +14,7 @@ calc_sub = x - y
 calc_multi = x * y
 calc_div = x / y
 
+
 puts "Sum is #{calc_sum}"
 puts "Subtration is #{calc_sub}"
 puts "Multi is #{calc_multi}"
